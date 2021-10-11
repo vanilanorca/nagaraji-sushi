@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nagaraji</title>
+
+    <link rel="stylesheet" href="main.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="loading" style="display:inline">
+        <div>
+            <h1>Nagaraji</h1>
+            <img src="./assets/loading.gif" alt="">
+            <span>Carregando...</span>
+        </div>
+    </div>
+
+    <div class="content" id="show">
+        <header>
+            <div class="container">
+                
+                <a href="../index.html" style="display: flex; justify-content: space-around;
+                align-items: center; width: 300px;">
+                    <img src="assets/logo-nagaraji.png" alt="">
+                    <h1>Nagaraji</h1>
+                </a>
+
+                <nav id="nav">
+                    <i class="fas fa-times" id="close-menu" onclick="closeMenuFunction()"></i>
+                    <a href="#">Home</a>
+                    <a href="./paginas/sobre/sobre.html">Sobre</a>
+                    <a href="paginas/cardapio/cardapio.html">Cardápio</a>
+                    <a href="./paginas/peca-agora/peca-agora.html" class="call-to-action">Peça agora</a>
+                </nav>
+
+                <i class="fas fa-bars" id="hamb-menu" onclick="openMenu()"></i>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="banner">
+            </div>
+        </div>
+
+        <div class="sobre">
+            <div class="container">
+                <h2 class="text-align-center">História</h2>
+                <p>O <b>NAGARAJI</b> foi fundado por <span class="call-to-action" style="text-decoration-line: underline; text-decoration-style: wavy;text-decoration-color: #ea060691;">Yudi Nagatsu Vanso</span>, trazendo gastronomia da culinária japonesa, com sushis e
+                sashimis elaborados de forma única e com sabor marcante.</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="banner-horarios">
+                <div class="bloco">
+                    <img src="assets/icon-1.png" alt="">
+                    <span>Almoço <br> 11h - 15h</span>
+                </div>
+
+                <div class="bloco">
+                    <img src="assets/icon-2.png" alt="">
+                    <span>Jantar <br> 18h - 22h</span>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="col-1">
+                    <img src="assets/logo-nagaraji.png" alt="">
+                    <ul>
+                        <a href="#">
+                            <li>Home</li>
+                        </a>
+                        <a href="#">
+                            <li>Sobre</li>
+                        </a>
+                        <a href="paginas/cardapio.html">
+                            <li>Cardápio</li>
+                        </a>
+                        <a href="#">
+                            <li>Peça agora</li>
+                        </a>
+                    </ul>
+                </div>
+
+                <div class="col-2">
+                    <h2>Agradecimento</h2>
+                    
+                    <p>Agradecemos por nos escolher e confiar no nosso trabalho! Seu pedido foi feito e embalado com muito carinho.</p>
+                    <p>Esperamos que você goste! Não esqueça de registrar e nos marcar no nosso instagram <a href="https://www.instagram.com/nagarajisushi/" class="call-to-action" target="_blank">@Nagaraji!</a></p>
+                </div>
+
+                <div class="col-3">
+                    <h2>Redes Sociais</h2>
+
+                    <a href="https://www.instagram.com/nagarajisushi/" target="_blank"><i class="fab fa-instagram" class="icon"></i></a>
+                </div>
+
+
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/bb176450ad.js" crossorigin="anonymous"></script>
+</body>
+</html>

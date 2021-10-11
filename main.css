@@ -1,0 +1,301 @@
+/* font-family: 'Merienda One', cursive; */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merienda One', cursive;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), #ffffff80), url(./assets/background-oriental.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+i{
+    font-size: 22px;
+}
+
+.call-to-action{
+    color: #ea0606;
+}
+
+.content{
+    display: none;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 400px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 80%;
+    align-self: center;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background: black;
+    padding: 10px 0;
+    color: white;
+}
+header .container{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header img{
+    width: 100%;
+    max-width: 50px;
+    height: min-content;
+    filter: invert(1);
+}
+nav{
+    width: 40%;
+    padding: 0;
+    list-style: none;
+    justify-content: space-around;
+    display: flex;
+}
+header a{
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+header a:hover{
+    background: #ea060691;
+}
+#hamb-menu{
+    display: none;
+}
+#close-menu{
+    display: none;
+}
+
+.sobre{
+    background: white;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+    padding: 40px 100px;
+    text-align: center;
+}
+
+
+.banner{
+    background-image: linear-gradient(#00000080, #00000080), url(./assets/banner.jpg) ;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    display: flex;
+}
+
+.banner-horarios{
+    background-image: linear-gradient(#00000080, #00000080), url(./assets/banner-horario.jpg) ;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+.banner-horarios .bloco{
+    background: rgba(255, 255, 255, 0.685);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    text-align: center;
+    transition: .3s;
+    font-size: 20px;
+}
+.banner-horarios .bloco:hover{
+    background: white;
+}
+.banner-horarios .bloco img{
+    width: 100px;
+} 
+
+.text-align-center{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+footer{
+    font-size: 14px;
+    padding: 40px 0;
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 300px;
+}
+footer .container{
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer img{
+    width: 100%;
+    max-width: 100px;
+    height: min-content;
+    filter: invert(1);
+}
+footer ul{
+    padding: 0;
+    list-style: none;
+}
+footer li{
+    padding: 5px 0;
+}
+footer li:hover, footer i:hover{
+    color: #ea0606;
+}
+footer .col-1, .col-2, .col-3{
+    width: 30%;
+}
+.col-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+@media (max-width: 870px){
+    #hamb-menu{
+        display: inherit;
+        font-size: 30px;
+        color: #fff;
+    }
+
+    #close-menu{
+        display: inherit;
+        color: #fff;
+        position: absolute;
+        right: 3%;
+        top: 1%;
+        font-size: 40px;
+    }
+
+    header{
+        background-size: cover;
+    }
+
+    .logo{
+        flex-direction: column;
+        min-height: 300px
+    }
+
+    .nome-site{
+        text-align: center;
+        font-size: 25px;
+        padding: 0 20px;
+    }
+
+    nav{
+        background: #000000d2;
+        flex-direction: column;
+        justify-content: center!important;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        align-self: center;
+        gap: 50px;
+        width: 100%!important;
+        height: 100vh;
+        padding-bottom: 20px;
+        margin: 0;
+
+        display: none;
+    }
+
+    nav a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #ffffff;
+        min-width: 65%;
+        height: 5%;
+        font-size: 16px;
+        color: black;
+        border-radius: 15px;
+        text-align: center;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+
+    .banner{
+        min-height: 200px;
+    }
+
+    .banner-horarios{
+        min-height: 500px;
+        flex-direction: column;
+    }
+    .banner-horarios .bloco{
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 20px 0;
+    }
+
+    .content{
+        padding-bottom: 750px;
+    }
+
+    footer{
+        height: auto;
+        text-align: center;
+    }
+    footer .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .col-1, .col-2, .col-3{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+#loading div{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    color: #ea0606;
+}
+#loading h1{
+    text-shadow: 2px 2px #000000;
+}
+#loading img{
+    width: 100%;
+    max-width: 600px;
+    filter: drop-shadow( 6px 6px 4px #121212);
+}
+#loading span{
+    font-weight: bold;
+    font-style: italic;
+    animation: loadingText 1.8s infinite;
+    margin-top: 10px;
+}
+@keyframes loadingText {
+  0%   {opacity: 0;}
+  50%  {opacity: 1;}
+  100% {opacity: 0;}
+}

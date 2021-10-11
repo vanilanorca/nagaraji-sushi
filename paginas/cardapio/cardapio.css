@@ -1,0 +1,39 @@
+.banner{
+    background-image: linear-gradient(#00000080, #00000080), url(../../assets/banner-cardapio.jpg) ;
+}
+
+table{
+    width: 100%;
+    border-spacing: 20px;
+    background: rgba(255, 255, 255, 0.253);
+    border: 1px solid rgba(255, 255, 255, 0.562);
+    border-radius: 30px;
+    padding: 20px;
+}
+
+table td:nth-child(1){
+    width: 85%;
+}
+table td:nth-child(2){
+    text-align: center;
+    width: 15%;
+}
+
+.table-title{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.table-title:first-child{
+    margin-top: 60px;
+}
+
+.observacoes{
+    font-size: 13px;
+    margin-top: 5px;
+
+    background: rgba(255, 255, 255, 0.253);
+    border: 1px solid rgba(255, 255, 255, 0.562);
+    border-radius: 30px;
+    padding: 5px 20px;
+}

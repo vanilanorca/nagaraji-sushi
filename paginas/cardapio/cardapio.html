@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nagaraji</title>
+
+    <link rel="stylesheet" href="../../main.css">
+    <link rel="stylesheet" href="./cardapio.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="loading" style="display:inline">
+        <div>
+            <h1>Nagaraji</h1>
+            <img src="../../assets/loading.gif" alt="">
+            <span>Carregando...</span>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="content" id="show">
+        <header>
+            <div class="container">
+        
+                <a href="../../index.html" style="display: flex; justify-content: space-around;
+                        align-items: center; width: 300px;">
+                    <img src="../../assets/logo-nagaraji.png" alt="">
+                    <h1>Nagaraji</h1>
+                </a>
+        
+                <nav id="nav">
+                    <i class="fas fa-times" id="close-menu" onclick="closeMenuFunction()"></i>
+                    <a href="../../index.html">Home</a>
+                    <a href="../sobre/sobre.html">Sobre</a>
+                    <a href="../cardapio/cardapio.html">Cardápio</a>
+                    <a href="../peca-agora/peca-agora.html" class="call-to-action">Peça agora</a>
+                </nav>
+        
+                <i class="fas fa-bars" id="hamb-menu" onclick="openMenu()"></i>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="banner">
+
+            </div>
+        </div>
+
+        <h1 style="text-align: center; color: #ea0606; text-shadow: 3px 3px 3px black;">Cardápio</h1>
+
+        <div class="container">
+            <h2 class="table-title">Combinados</h2>
+            <table>
+                <tr>
+                    <td>
+                        <b>COMBINADO I</b> <br>
+                        4 uramaki califórnia , 8 hossomaki de pepino , jô pepino com shimeji.
+                    </td>
+
+                    <td>R$ 00,00</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <b>COMBINADO II</b> <br>
+                        5 baterá , 4 uramaki califórnia , 4 niguiri salmão , 2 hossomaki de kani , 2 hossomaki de pepino.
+                    </td>
+
+                    <td>R$ 00,00</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <b>COMBINADO III</b> <br>
+                        4 uramaki de salmão grelhado , 4 uramaki skin , 4 hotroll , 8 hossomaki de salmão grelhado.
+                    </td>
+
+                    <td>
+                        R$ 00,00
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <b>COMBINADO IV</b> <br>
+                        3 jô shimeji , 3 jô salmão maçaricado , 3 jô doritinhos , 6 sashimis de salmão , 4 enrolados de salmão com geléia de pimenta ,3 niguiri de salmão , 2 niguiri de salmão maçaricado.
+                    </td>
+                
+                    <td>
+                        R$ 00,00
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <b>COMBINADO V</b> <br>
+                        10 sashimis de salmão , 5 enrolado de salmão com couve , 5 baterá , 6 niguiri de salmão , 4 uramaki de salmão com cream cheese, 10 hotroll, 5 jô de salmão com geleia de pimenta , 5 jô doritinhos.
+                    </td>
+                
+                    <td>
+                        R$ 00,00
+                    </td>
+                </tr>
+            </table>
+
+
+
+            <h2 class="table-title">Combinado com Temaki</h2>
+            <table>
+                <tr>
+                    <td>
+                        <b>COMBIMAKI I</b> <br>
+                        4 hotroll, meia porção de shimeji e um temaki de sua escolha.
+                    </td>
+            
+                    <td>R$ 00,00</td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <b>COMBIMAKI II</b> <br>
+                        4 sashimi salmão, 3 niguiri salmão e um temaki de sua escolha.
+                    </td>
+                
+                    <td>R$ 00,00</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <b>COMBIMAKI III</b> <br>
+                        2 guioza , 4 uramaki salmão e um temaki de sua escolha.
+                    </td>
+                
+                    <td>R$ 00,00</td>
+                </tr>
+            </table>
+            <span class="observacoes">* Temaki de Atum, Temaki Empanado e Temaki Nagaraji terá acréscimo de R$ 3,00 no combinado.</span>
+            
+
+
+
+
+            <h2 class="table-title">Temakis</h2>
+            <table>
+                <tr>
+                    <td>
+                        <b>TEMAKI SALMÃO</b> <br>
+                        Salmão com cebolinha.
+                    </td>
+            
+                    <td>R$ 00,00</td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <b>TEMAKI SALMÃO COMPLETO</b> <br>
+                        Salmão com cream cheese e cebolinha.
+                    </td>
+            
+                    <td>R$ 00,00</td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <b>TEMAKI NAGARAJI</b> <br>
+                        Salmão com cream cheese e cebolinha, amêndoas laminadas, azeite trufado e pepino.
+                    </td>
+            
+                    <td>R$ 00,00</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <b>TEMAKI SALMÃO COM SHIMEJI</b> <br>
+                        Salmão e shimeji com cream cheese e cebolinha.
+                    </td>
+                
+                    <td>R$ 00,00</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <b>TEMAKI ATUM COMPLETO</b> <br>
+                        Atum com cream cheese e cebolinha.
+                    </td>
+                
+                    <td>R$ 00,00</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <b>TEMAKI PEIXE BRANCO</b> <br>
+                        Saint Peter com limão espremido e cream cheese e cebolinha.
+                    </td>
+                
+                    <td>R$ 00,00</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <b>TEMAKI EMPANADO</b> <br>
+                        Salmão com cream cheese e cebolinha todo empanado. <br>
+                        *( Não tem opção de aberto )
+                    </td>
+                
+                    <td>R$ 00,00</td>
+                </tr>
+            </table>
+
+
+
+
+            <h2 class="table-title">Poke</h2>
+            <table>
+                <tr>
+                    <td>
+                        <b>POKE SALMÃO</b> <br>
+                        Salmão em cubos, arroz japonês, shimeji na manteiga, molho nagaraji (shoyu, limão e óleo de gergelim), sunomono, manga, cream cheese e cebolinha.
+                    </td>
+            
+                    <td>R$ 00,00</td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <b>POKE ATUM</b> <br>
+                        Atum em cubos, arroz japonês, shimeji na manteiga, molho nagaraji (shoyu, limão e óleo de gergelim), couve crispy, tomate cereja, cream cheese e cebolinha.
+                    </td>
+                
+                    <td>R$ 00,00</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <b>POKE SALMÃO GRELHADO</b> <br>
+                        Salmão grelhado, arroz japonês, shimeji na manteiga, molho nagaraji (shoyu, limão e óleo de gergelim), moyashi temperado, tomate cereja, cream cheese e cebolinha.
+                    </td>
+                
+                    <td>R$ 00,00</td>
+                </tr>
+            </table>
+
+
+
+
+
+            <h2 class="table-title">Porções</h2>
+            <table>
+                <tr>
+                    <td>
+                        <b>BATERÁ (10 UNIDADES)</b>
+                    </td>
+            
+                    <td>R$ 00,00</td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <b>NIGUIRI SALMÃO (6 UNIDADES)</b>
+                    </td>
+                
+                    <td>R$ 00,00</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <b>URAMAKI SALMÃO (8 UNIDADES)</b>
+                    </td>
+                
+                    <td>R$ 00,00</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <b>URAMAKI SALMÃO COM CREAM CHEESE (8 UNIDADES)</b>
+                    </td>
+                
+                    <td>R$ 00,00</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <b>URAMAKI CAlIFÓRNIA (8 UNIDADES)</b>
+                    </td>
+                
+                    <td>R$ 00,00</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <b>URAMAKI SKIN (8 UNIDADES)</b>
+                    </td>
+                
+                    <td>R$ 00,00</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <b>GUIOZA (6 UNIDADES)</b>
+                    </td>
+                
+                    <td>R$ 00,00</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <b>HURAMAKI (2 UNIDADES)</b> <br>
+                        Queijo / Legumes / Carne com legumes
+                    </td>
+                
+                    <td>R$ 00,00</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <b>HURAMAKI EMPANADO (2 UNIDADES)</b> <br>
+                        Queijo
+                    </td>
+                
+                    <td>R$ 00,00</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <b>HOSSOMAKI SALMÃO (8 UNIDADES)</b>
+                    </td>
+                
+                    <td>R$ 00,00</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <b>HOSSOMAKI PEPINO (8 UNIDADES)</b>
+                    </td>
+                
+                    <td>R$ 00,00</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <b>HOSSOMAKI KANI (8 UNIDADES)</b>
+                    </td>
+                
+                    <td>R$ 00,00</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <b>FUTOMAKI SALMÃO (8 UNIDADES)</b>
+                    </td>
+                
+                    <td>R$ 00,00</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <b>SHIMEJI NA MANTEIGA (SERVE 2 PESSOAS)</b>
+                    </td>
+                
+                    <td>R$ 00,00</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <b>SASHIMI SALMÃO (12 UNIDADES)</b>
+                    </td>
+                
+                    <td>R$ 00,00</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <b>SASHIMI SAINT PETER (12 UNIDADES)</b>
+                    </td>
+                
+                    <td>R$ 00,00</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <b>SASHIMI ATUM (10 UNIDADES)</b>
+                    </td>
+                
+                    <td>R$ 00,00</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <b>SASHIMI MISTO (12 UNIDADES)</b>
+                    </td>
+                
+                    <td>R$ 00,00</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <b>HOT ROLL (8 UNIDADES)</b> <br>
+                        Salmão / Shimeji / Skin
+                    </td>
+                
+                    <td>R$ 00,00</td>
+                </tr>
+            </table>
+
+
+
+
+            <h2 class="table-title">Bentô</h2>
+            <table>
+                <tr>
+                    <td>
+                        <b>BENTÔ SALMÃO GRELHADO</b>
+                    </td>
+            
+                    <td>R$ 00,00</td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <b>BENTÔ TONKATSU</b>
+                    </td>
+                
+                    <td>R$ 00,00</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <b>BENTÔ SAINT PETER</b>
+                    </td>
+                
+                    <td>R$ 00,00</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <b>BENTÔ FRANGO</b>
+                    </td>
+                
+                    <td>R$ 00,00</td>
+                </tr>
+            </table>
+            <span class="observacoes">* Todos acompanham gohan (arroz), legumes refogados no shoyu, shimeji ou guioza.</span>
+
+
+
+
+            <h2 class="table-title">Bebidas</h2>
+            <table>
+                <tr>
+                    <td>
+                        <b>REFRIGERANTE</b> <br>
+                        Guaraná | Guaraná Zero | Coca-Cola | Coca-cola Zero | Soda.
+                    </td>
+            
+                    <td>R$ 00,00</td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <b>H2OH</b> <br>
+                        Limão | Limoneto
+                    </td>
+            
+                    <td>R$ 00,00</td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <b>CHÁ MATE GELADO</b> <br>
+                        Limão | Pêssego
+                    </td>
+            
+                    <td>R$ 00,00</td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <b>ÁGUA</b> <br>
+                        Com gás | Sem gás
+                    </td>
+            
+                    <td>R$ 00,00</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <b>LONG NECK</b> <br>
+                        Heineken | Stella Artois | Budweiser
+                    </td>
+                
+                    <td>R$ 00,00</td>
+                </tr>
+            </table>
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="col-1">
+                    <img src="../../assets/logo-nagaraji.png" alt="">
+                    <ul>
+                        <a href="../index.html">
+                            <li>Home</li>
+                        </a>
+                        <a href="../sobre/sobre.html">
+                            <li>Sobre</li>
+                        </a>
+                        <a href="../cardapio/cardapio.html">
+                            <li>Cardápio</li>
+                        </a>
+                        <a href="../peca-agora/peca-agora.html">
+                            <li>Peça agora</li>
+                        </a>
+                    </ul>
+                </div>
+
+                <div class="col-2">
+                    <h2>Agradecimento</h2>
+
+                    <p>Agradecemos por nos escolher e confiar no nosso trabalho! Seu pedido foi feito e embalado com
+                        muito carinho.</p>
+                    <p>Esperamos que você goste! Não esqueça de registrar e nos marcar no nosso instagram <a
+                            href="https://www.instagram.com/nagarajisushi/" class="call-to-action">@Nagaraji!</a></p>
+                </div>
+
+                <div class="col-3">
+                    <h2>Redes Sociais</h2>
+
+                    <a href="https://www.instagram.com/nagarajisushi/"><i class="fab fa-instagram" class="icon"></i></a>
+                </div>
+
+
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="../../main.js"></script>
+    <script src="https://kit.fontawesome.com/bb176450ad.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
