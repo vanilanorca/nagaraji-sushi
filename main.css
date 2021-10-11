@@ -306,13 +306,17 @@ footer .col-1, .col-2, .col-3{
 }
 #loading h1{
     text-shadow: 2px 2px #000000;
+    position: relative;
+}
+#loading span:nth-child(2){
+    text-shadow: none;
 }
 #loading img{
     width: 100%;
     max-width: 600px;
     filter: drop-shadow( 6px 6px 4px #121212);
 }
-#loading span{
+#loading span:nth-child(3){
     font-weight: bold;
     font-style: italic;
     animation: loadingText 1.8s infinite;
