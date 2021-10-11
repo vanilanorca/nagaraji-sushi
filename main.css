@@ -43,6 +43,18 @@ header{
     padding: 10px 0;
     color: white;
 }
+header h1{
+    text-align: center;
+    position: relative;
+    height: 60px;
+}
+.delivery{
+    font-size: 14px;
+    color: #ea0606;
+    position: absolute;
+    bottom: 100;
+    right: 0;
+}
 header .container{
     flex-direction: row;
     display: flex;
