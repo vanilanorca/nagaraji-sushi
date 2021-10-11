@@ -252,6 +252,10 @@ footer .col-1, .col-2, .col-3{
         padding: 20px 0;
     }
 
+    .sobre{
+        padding: 40px 20px;
+    }
+
     .content{
         padding-bottom: 750px;
     }
