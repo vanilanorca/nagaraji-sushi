@@ -4,7 +4,7 @@ function load (){
     document.getElementById("show").style.display = "flex"
 }
 
-window.onload = (function () { window.setInterval('load()',3500);})
+window.onload = (function () { window.setInterval('load()',2900);})
 
 
 
