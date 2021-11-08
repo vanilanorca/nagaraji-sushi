@@ -64,7 +64,6 @@ header .container{
 header img{
     width: 100%;
     max-width: 50px;
-    height: min-content;
 }
 nav{
     width: 40%;
@@ -162,7 +161,6 @@ footer .container{
 footer img{
     width: 100%;
     max-width: 100px;
-    height: min-content;
 }
 footer ul{
     padding: 0;
