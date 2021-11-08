@@ -181,6 +181,10 @@ footer .col-1, .col-2, .col-3{
     align-items: center;
 }
 
+.rede-social{
+    margin-top: 15px;
+}
+
 .credits{
     text-align: center;
     margin-top: 40px;
